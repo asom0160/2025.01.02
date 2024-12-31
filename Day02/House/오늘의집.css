@@ -1,0 +1,31 @@
+.yellow {
+  color: black;
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 15px;
+  padding: 4px 12px 4px 12px;
+}
+
+.blak {
+  color: black;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+  border: none;
+  padding: 4px 12px 4px 12px;
+}
+
+.white {
+  color: black;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+  border: none;
+  padding: 4px 12px 4px 12px;
+}
+
+.red {
+  color: black;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+  border: none;
+  padding: 4px 12px 4px 12px;
+}

@@ -1,0 +1,23 @@
+.selecyed {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid #e6e6e6;
+  padding: 2px 12px 2px 12px;
+}
+
+.unselecyed {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid #e6e6e6;
+  padding: 2px 12px 2px 12px;
+}
+
+.unsel {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid #e6e6e6;
+  padding: 2px 12px 2px 12px;
+}

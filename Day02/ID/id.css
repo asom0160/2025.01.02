@@ -1,0 +1,18 @@
+.id {
+  color: white;
+  background-color: blue;
+  width: 300px;
+  padding: 10px 20px 10px 20px;
+  margin: 5px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+.ids {
+  color: white;
+  background-color: black;
+  width: 300px;
+  padding: 10px 20px 10px 20px;
+  margin: 5px;
+  border-radius: 30px;
+  font-weight: 700;
+}
