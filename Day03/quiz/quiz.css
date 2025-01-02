@@ -1,0 +1,46 @@
+.pilbut {
+  color: white;
+  background-color: red;
+  border-radius: 30px;
+  font-weight: 300;
+  border: none;
+  margin-bottom: 2px;
+}
+
+.button {
+  padding: 5px 8px 5px 8px;
+}
+.button2 {
+  padding: 5px 20px 5px 20px;
+}
+.butt {
+  padding: 5px 40px 5px 40px;
+}
+.apple {
+  color: white;
+  background-color: black;
+}
+.google {
+  color: black;
+  background-color: white;
+}
+.pilapp {
+  border: 1px solid black;
+  padding: 5px 40px 5px 40px;
+  margin-bottom: 5px;
+  font-weight: 700;
+  border-radius: 40px;
+}
+.kakao {
+  color: black;
+  background-color: yellow;
+  border: none;
+}
+
+.coupon {
+  color: black;
+  background-color: white;
+  border: 1px solid gray;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}

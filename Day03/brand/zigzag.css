@@ -1,0 +1,34 @@
+.IMI {
+  width: 200px;
+  height: 300px;
+}
+div > img {
+  width: 100%;
+  height: 70%;
+  margin-bottom: 3px;
+}
+.Qia {
+  color: black;
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+.La {
+  color: black;
+  font-size: 8px;
+  font-weight: 100;
+  margin-bottom: 3px;
+}
+.num {
+  color: rgb(255, 120, 143);
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.num > span {
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
