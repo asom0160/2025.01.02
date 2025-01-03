@@ -1,0 +1,41 @@
+.basan {
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.underline {
+  color: white;
+  font-size: 10px;
+  text-decoration: underline;
+  line-height: 20px;
+}
+.font {
+  color: white;
+  font-weight: 700;
+  font-size: 23px;
+  margin-top: 15px;
+  line-height: 30px;
+}
+.date {
+  font-size: 12px;
+  color: white;
+  margin-top: 15px;
+  line-height: 20px;
+}
+
+.bu {
+  background-image: url("image.jpg");
+}
+.ao {
+  background-image: url("water.jpg");
+}
+.bo {
+  background-image: url("hotel.jpg");
+}
+.co {
+  background-image: url("japan.jpg");
+}

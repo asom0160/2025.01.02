@@ -1,0 +1,37 @@
+.photo {
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  background-size: cover;
+  display: inline-block;
+  padding: 100px 15px 30px 15px;
+}
+
+.open {
+  color: orange;
+  border: 1px solid orange;
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.p2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30px;
+  color: white;
+  line-height: 40px;
+  padding: 30px 25px 40px 10px;
+}
+
+.look {
+  color: white;
+  font-size: 15px;
+  line-height: 260px;
+  margin-left: 10px;
+}
+
+.p1 {
+  background-image: url("creative.jpg");
+}
