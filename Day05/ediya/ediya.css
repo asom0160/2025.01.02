@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.ediya {
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 60px;
+}
+.container > img {
+  width: 100%;
+  object-fit: cover;
+  transition: all 1s;
+}
+.container > img:hover {
+  transform: scale(1.2) rotate(20deg);
+}
+.present {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  font-weight: 700;
+  border: none;
+}
+
+.card {
+  position: relative;
+}
+.card:hover > .blur {
+  opacity: 1;
+}
+.blur {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  transition: all 0.5s;
+  opacity: 0;
+}

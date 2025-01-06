@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.color {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 300px;
+  height: 300px;
+}
+.minibox {
+  width: 100px;
+  height: 100px;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.hole {
+  background-color: yellow;
+}
+
+.minibox {
+  background-color: skyblue;
+}

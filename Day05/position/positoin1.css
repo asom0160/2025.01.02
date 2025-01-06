@@ -1,0 +1,18 @@
+.container {
+  width: 300px;
+  position: relative;
+}
+.comtainer > img {
+  width: 100%;
+  object-fit: cover;
+}
+.bucket {
+  width: fit-content;
+  background-color: #e7280067;
+  color: white;
+  padding: 15px;
+  border-radius: 9999px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
