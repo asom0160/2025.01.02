@@ -1,0 +1,78 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin: 20px;
+}
+.name {
+  border: 1px solid #0000001f;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 20px;
+  padding: 3px 10px;
+}
+.name:hover {
+  transition: all 0.5s;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 20px;
+}
+.last {
+  background-color: white;
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.file {
+  background-color: #0009321f;
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.file > img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+.word {
+  font-size: 10px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.file:hover > .woek {
+  opacity: 1;
+}
+
+.woek {
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  position: absolute;
+  opacity: 0;
+  background-color: #0000009b;
+  border-radius: 10px;
+}
