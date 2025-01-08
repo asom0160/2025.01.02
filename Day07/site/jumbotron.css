@@ -1,0 +1,29 @@
+.jumbotron {
+  height: 80vh;
+  padding-top: 300px;
+  background-image: url(vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+.jumbotron > .inno {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.jumbotron > .inno > h1 {
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+.jumbotron > .inno > p {
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.jumbotron > .inno > .view {
+  width: 200px;
+  padding: 10px 60px;
+  border: 3px solid black;
+}
