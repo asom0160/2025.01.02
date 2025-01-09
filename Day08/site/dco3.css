@@ -1,0 +1,39 @@
+.one {
+  padding: 300px 0;
+}
+.one > .two {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.one > .two > h3 {
+  font-size: 40px;
+}
+.two > .third {
+  width: 150px;
+}
+.third > article > figure {
+  width: 100%;
+  height: 150px;
+}
+article > figure > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.third > article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.one > .two > .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}

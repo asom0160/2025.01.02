@@ -1,0 +1,23 @@
+header {
+  width: 100%;
+}
+.title {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.title > h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.title > ul {
+  display: flex;
+  flex-direction: row;
+}
+.title > ul > li {
+  margin-left: 30px;
+}

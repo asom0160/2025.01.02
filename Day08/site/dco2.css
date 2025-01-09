@@ -1,0 +1,28 @@
+.news {
+  width: 100vw;
+  background-image: url(sky.jpg);
+  background-size: cover;
+  padding: 300px 0;
+  background-position: 50% 50%;
+}
+.head {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+.head > h2 {
+  font-size: 100px;
+  margin-bottom: 40px;
+  color: white;
+}
+.head > p {
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.button {
+  margin-bottom: 40px;
+  width: 500px;
+  padding: 10px 100px;
+}

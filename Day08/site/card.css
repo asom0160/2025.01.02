@@ -1,0 +1,71 @@
+.card {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 20px 20px;
+}
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card__image > img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 9999px;
+}
+.desc1 {
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dco {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.desc1 > .groub {
+  font-size: 5px;
+}
+.button {
+  background-color: skyblue;
+  color: white;
+  font-size: 5px;
+  padding: 7px 40px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.icon > i {
+  font-size: 10px;
+}
+.icon > p {
+  font-size: 8px;
+  margin-left: 5px;
+}
+.card > .but {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.card > .but > .b {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 9999px;
+  background-color: blue;
+}
