@@ -1,0 +1,71 @@
+.high {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://www.socar.kr/images/main_visual_fullscreen.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+.high > .title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 50px;
+  color: white;
+  position: absolute;
+}
+.title > h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+.high > h2 {
+  font-size: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 450px;
+  color: white;
+}
+.card {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.card > h3 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+.card > p {
+  color: gray;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.card > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.together {
+  width: 100%;
+  height: 150px;
+  background-color: #0000000f;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 200px 550px;
+  position: relative;
+  margin-top: 200px;
+  transform: translate();
+}
+.together > h4 {
+  color: #00000044;
+  max-width: 800px;
+}
+.together > h4 > span {
+  color: #00c7fe83;
+}

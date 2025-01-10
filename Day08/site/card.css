@@ -41,31 +41,51 @@
   font-size: 5px;
   padding: 7px 40px;
   border-radius: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
-.icon {
+
+.name > .icon {
   display: flex;
   flex-direction: row;
-  margin-bottom: 10px;
-  justify-content: center;
 }
 .icon > i {
   font-size: 10px;
 }
 .icon > p {
   font-size: 8px;
-  margin-left: 5px;
 }
 .card > .but {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 10px;
+  margin: 10px 0;
+  gap: 10px;
 }
 .card > .but > .b {
   width: 20px;
   height: 20px;
-  border: 1px solid black;
+  border: none;
   border-radius: 9999px;
   background-color: blue;
+}
+.card > .but > .m {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 9999px;
+  background-color: mediumspringgreen;
+}
+.card > .but > .p {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 9999px;
+  background-color: pink;
+}
+.card > .but > .pu {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 9999px;
+  background-color: purple;
 }
