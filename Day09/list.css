@@ -1,0 +1,23 @@
+.box {
+  width: 500px;
+  height: 50px;
+  background-color: aquamarine;
+}
+
+.box > .list {
+  display: flex;
+  gap: 30px;
+}
+
+.icon {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .icon {
+    display: none;
+  }
+  .box > .list {
+    display: none;
+  }
+}
